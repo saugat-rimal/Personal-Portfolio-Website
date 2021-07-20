@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'SaugatRimal',
-        short_name: 'SaugatRimal',
+        name: 'Saugat Rimal',
+        short_name: 'Saugat Rimal',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

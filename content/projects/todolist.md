@@ -1,5 +1,5 @@
 ---
-date: '2020-07-20'
+date: '2021-07-20'
 title: 'Todo List'
 github: 'https://github.com/saugat-rimal/todo-list'
 external: 'https://todo-list.saugat.works/'

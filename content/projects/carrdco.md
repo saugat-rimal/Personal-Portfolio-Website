@@ -1,9 +1,8 @@
 ---
 date: '2021-04-16'
 title: 'Carrd.co'
-github: ''
+github: 'https://saugatrimal.carrd.co/'
 external: 'https://saugat-rimal.carrd.co/'
-external: 'https://saugatrimal.carrd.co/'
 tech:
   - carrd.co
 showInProjects: false

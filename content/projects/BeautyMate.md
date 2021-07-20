@@ -1,5 +1,5 @@
 ---
-date: '2020-07-15'
+date: '2021-07-15'
 title: 'Beautymate'
 github: ''
 external: 'https://beautymate.in/'

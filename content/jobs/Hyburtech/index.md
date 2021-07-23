@@ -1,6 +1,6 @@
 ---
 date: '2021-06-01'
-title: 'WordPress Developer'
+title: 'WordPress Expert'
 company: 'Hyburtech'
 location: 'Mumbai, India'
 range: 'May 2021 - Present'

@@ -2,13 +2,13 @@
 date: '2021-07-25'
 title: 'Made a Custom Wordpress Theme'
 github: 'https://github.com/saugat-rimal'
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+external: 'https://chatbooknepal.000webhostapp.com/'
 tech:
   - Html
   - Css3
   - WordPress
   - PHP
-company: 'Personal Project'
+company: ''
 showInProjects: true
 ---
 

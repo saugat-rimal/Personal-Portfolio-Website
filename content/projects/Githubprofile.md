@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Girhub version of my resume made for fun. I was interested in learning Git & Github, so I found a simple tutorial and it spun into a weekend project.
+Github version of my resume made for fun. I was interested in learning Git & Github, so I found a simple tutorial and it spun into a weekend project.

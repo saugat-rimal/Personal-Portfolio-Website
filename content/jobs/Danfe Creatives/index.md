@@ -3,7 +3,7 @@ date: '2020-04-01'
 title: 'Web Designer'
 company: 'Danfe Creatives'
 location: 'Anamnagar, Kathmandu'
-range: 'April - December 2020'
+range: 'April 2020 - December 2020'
 url: 'https://creativesdanfe.com/'
 ---
 

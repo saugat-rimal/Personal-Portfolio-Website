@@ -141,10 +141,11 @@ const About = () => {
             <p>
               Fast-forward to today, and I've had the privilege of working at{' '}
               <a href="https://creativesdanfe.com/">an digital agency</a>,{' '}
-              <a href="https://hyburtech.com/">a start-up</a>, and{' '}
+              <a href="https://hyburtech.com/">a start-up</a>,{' '}
+              <a href="https://www.goswivt.com/">a multi-national company</a> and{' '}
               <a href="https://saugatrimal.com.np/">as freelancer</a>. My
               main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://hyburtech.com/">Hyburtech</a> for a variety of
+              experiences at <a href="https://www.goswivt.com/">Swivt Technologies</a> for a variety of
               clients.
             </p>
 

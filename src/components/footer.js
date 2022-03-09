@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://timeline.saugatreemal.engineer/">
+        <a href="https://timeline.saugatrimal.com.np/">
           <div> Click to view all my Projects </div>
 
            

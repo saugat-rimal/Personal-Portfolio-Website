@@ -5,7 +5,7 @@ module.exports = {
     title: 'Saugat Rimal',
     description:
       'Saugat Rimal is a computer engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://www.saugatreemal.engineer/', // No trailing slash allowed!
+    siteUrl: 'https://www.saugatrimal.com.np/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@saugatrimal60',
   },

@@ -1,11 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import React, {
+  useState,
+  useEffect
+} from 'react';
+import {
+  CSSTransition,
+  TransitionGroup
+} from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
-import { navDelay, loaderDelay } from '@utils';
-import { usePrefersReducedMotion } from '@hooks';
+import {
+  email
+} from '@config';
+import {
+  navDelay,
+  loaderDelay
+} from '@utils';
+import {
+  usePrefersReducedMotion
+} from '@hooks';
 
-const StyledHeroSection = styled.section`
+const StyledHeroSection = styled.section `
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
@@ -58,52 +71,83 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Saugat Rimal.</h2>;
-  const three = <h3 className="big-heading">I turn caffeine to code.</h3>;
-  const four = (
-    <p>
-      I'm a computer engineer based Biratnagar, Nepal who specializes in building (and occasionally designing) exceptional digital experiences. Currently,  I'm learning at {' '}
-      <a href="https://pufost.edu.np/" target="_blank" rel="noreferrer">
-        Purbanchal University
-      </a>{' '}
-      and focused on building accessible, human-centered products.
-    </p>
+  const one = < h1 > Hi,
+    my name is < /h1>;
+  const two = < h2 className = "big-heading" > Saugat Rimal. < /h2>;
+  const three = < h3 className = "big-heading" > I turn caffeine to code. < /h3>;
+  const four = ( <
+    p >
+    I 'm a computer engineer based Biratnagar, Nepal who specializes in building (and occasionally designing) exceptional digital experiences. Currently,  I'
+    m learning at {
+      ' '
+    } <
+    a href = "https://pufost.edu.np/"
+    target = "_blank"
+    rel = "noreferrer" >
+    Purbanchal University <
+    /a>{' '}
+    and focused on building accessible, human - centered products. <
+    /p>
   );
-  const five = (
-    <a href={`https://timeline.saugatreemal.engineer/`} className="email-link">
-      View My Projects
-    </a>
+  const five = ( <
+    a href = {
+      `https://timeline.saugatrimal.com.np/`
+    }
+    className = "email-link" >
+    View My Projects <
+    /a>
   );
-  
-/*  const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
-    </a>
-  );
-  */
+
+  /*  const five = (
+      <a href={`mailto:${email}`} className="email-link">
+        Get In Touch
+      </a>
+    );
+    */
 
   const items = [one, two, three, four, five];
 
-  return (
-    <StyledHeroSection>
-      {prefersReducedMotion ? (
-        <>
-          {items.map((item, i) => (
-            <div key={i}>{item}</div>
-          ))}
-        </>
-      ) : (
-        <TransitionGroup component={null}>
-          {isMounted &&
-            items.map((item, i) => (
-              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
-              </CSSTransition>
-            ))}
-        </TransitionGroup>
-      )}
-    </StyledHeroSection>
+  return ( <
+    StyledHeroSection > {
+      prefersReducedMotion ? ( <
+        > {
+          items.map((item, i) => ( <
+            div key = {
+              i
+            } > {
+              item
+            } < /div>
+          ))
+        } <
+        />
+      ) : ( <
+        TransitionGroup component = {
+          null
+        } > {
+          isMounted &&
+          items.map((item, i) => ( <
+            CSSTransition key = {
+              i
+            }
+            classNames = "fadeup"
+            timeout = {
+              loaderDelay
+            } >
+            <
+            div style = {
+              {
+                transitionDelay: `${i + 1}00ms`
+              }
+            } > {
+              item
+            } < /div> <
+            /CSSTransition>
+          ))
+        } <
+        /TransitionGroup>
+      )
+    } <
+    /StyledHeroSection>
   );
 };
 

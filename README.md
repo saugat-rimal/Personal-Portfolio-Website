@@ -5,7 +5,7 @@
   saugatreemal.engineer
 </h1>
 <p align="center">
-  The website <a href="https://www.saugatreemal.engineer/" target="_blank">saugatrimal.engineer</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The website <a href="https://www.saugatrimsl.com.np/" target="_blank">saugatrimal.engineer</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations:

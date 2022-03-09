@@ -2,10 +2,10 @@
   <img alt="Logo" src="https://gitlab.com/saugatrimal/personal-website/-/raw/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  saugatreemal.engineer
+  saugatrimal.com.np
 </h1>
 <p align="center">
-  The website <a href="https://www.saugatrimsl.com.np/" target="_blank">saugatrimal.engineer</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The website <a href="https://www.saugatrimal.com.np/" target="_blank">saugatrimal.com.np</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations:
